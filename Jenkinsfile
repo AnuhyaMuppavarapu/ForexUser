@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage("Clone the project") {
             steps {
-                git branch: 'main', url: 'https://github.com/ramya713/ForexMaven.git'
+                git branch: 'main', url: 'https://github.com/AnuhyaMuppavarapu/ForexUser.git'
             }
         }
 
